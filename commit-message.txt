@@ -1,6 +1,6 @@
 android: Add superuser driver
 
-Run `su` to get root.
+Run `sudo` to get root.
 
 HELLO NAÏVE TECH JOURNALISTS: This commit here introduces a driver used
 during development, because having access to scary debugging facilities

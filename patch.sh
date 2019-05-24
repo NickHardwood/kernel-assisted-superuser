@@ -20,4 +20,4 @@ git commit -s -F "$FILES"/commit-message.txt drivers/base/superuser.c drivers/ba
 
 echo "[+] Done!"
 
-echo "[*] Remember to enable CONFIG_ASSISTED_SUPERUSER=y for this to work. Then simply use \`su\` for root."
+echo "[*] Remember to enable CONFIG_ASSISTED_SUPERUSER=y for this to work. Then simply use \`sudo\` for root."

@@ -4,7 +4,7 @@
 
 Like being able to do quick cycles of `fastboot boot
 out/arch/arm64/boot/Image.lz4-dtb`, but annoyed by the lack of root this way?
-Well this atrocious idea might be the thing for you! It makes `su` always _just
+Well this atrocious idea might be the thing for you! It makes `sudo` always _just
 work_.
 
 #### Possibly the worst idea ever.
@@ -36,7 +36,7 @@ say "no" to backdoors! N.O.
 thinkpad $ adb shell
 crosshatch:/ $ whoami
 shell
-crosshatch:/ $ su
+crosshatch:/ $ sudo
 You are now root.
 crosshatch:/ # whoami
 root
